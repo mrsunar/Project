@@ -4,7 +4,6 @@ session_start();
 
 include_once 'config/class.php';
 
-// instance objek db dan user
 $user = new User();
 $db = new Database();
 
